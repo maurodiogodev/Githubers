@@ -114,6 +114,23 @@ table * {
   color: var(--text-color);
 }
 
+div.empty.true {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+div.empty.true svg {
+  max-width: 55%;
+}
+
+div.empty.false {
+  display: none;
+}
+
 table th {
   background-color: var(--primary-color);
   text-align: left;
