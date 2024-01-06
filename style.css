@@ -115,16 +115,16 @@ table * {
 }
 
 div.empty.true {
-  position: relative;
+  position: absolute;
+  z-index: 1;
+  top: 37rem;
+  left: calc(77vw / 2);
+  left: calc(100vw - 60%);
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
-}
-
-div.empty.true svg {
-  max-width: 55%;
+  gap: 5rem;
 }
 
 div.empty.false {
