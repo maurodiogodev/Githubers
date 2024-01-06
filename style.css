@@ -54,10 +54,11 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  margin-block: 3.2rem;
+  margin-block: 4rem;
 }
 
 header h1 {
+  height: 3.2rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -69,6 +70,7 @@ header h1 {
 
 .search input {
   height: 3.2rem;
+  min-width: 36rem;
   border: none;
   border-right: none;
   border-radius: 0.4rem 0 0 0.4rem;
@@ -101,6 +103,7 @@ header h1 {
 
 table {
   width: 100%;
+  margin-top: 7rem;
   border-collapse: collapse;
   border-spacing: 0;
   box-shadow: 0 0 2rem -0.4rem rgba(0, 0, 0, 0.3);
