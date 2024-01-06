@@ -196,7 +196,3 @@ td .remove {
 
   transition: transform 0.2s;
 }
-
-td .remove:hover {
-  transform: scale(1.5);
-}
