@@ -203,13 +203,25 @@ td .remove {
     row-gap: 3.2rem;
   }
 
-  header .col-b {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.6rem;
-  }
-
   .table-wrapper {
     margin-top: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header .col-b {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .search input {
+    min-width: initial;
+    flex-grow: 1;
+  }
+
+  header .col-b span {
+    display: none;
   }
 }
