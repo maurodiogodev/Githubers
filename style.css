@@ -196,19 +196,13 @@ td .remove {
   transition: transform 0.2s;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
   header {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 3.2rem;
   }
 
-  .table-wrapper {
-    margin-top: 5rem;
-  }
-}
-
-@media (max-width: 500px) {
   header .col-b {
     width: 100%;
     display: flex;
@@ -221,6 +215,12 @@ td .remove {
     flex-grow: 1;
   }
 
+  .table-wrapper {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
   header .col-b span {
     display: none;
   }
