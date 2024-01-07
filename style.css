@@ -195,3 +195,9 @@ td .remove {
 
   transition: transform 0.2s;
 }
+
+@media (min-width: 720px) {
+  header {
+    display: grid;
+  }
+}
