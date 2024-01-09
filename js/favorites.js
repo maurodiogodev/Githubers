@@ -77,9 +77,11 @@ export class FavoritesView extends Favorites {
         this.removeAllTr()
 
         if (this.entries.length == 0) {
+            this.tfoot.querySelector('tfoot td').classList.remove('empty')
             this.tfoot.querySelector('.empty').classList.remove('false')
             this.tfoot.querySelector('.empty').classList.add('true')
         } else {
+            this.tfoot.querySelector('tfoot td').classList.add('empty')
             this.tfoot.querySelector('.empty').classList.remove('true')
             this.tfoot.querySelector('.empty').classList.add('false')
         }
