@@ -128,14 +128,14 @@ table tfoot td {
   width: 100%;
 }
 
-div.empty.true {
+.empty.true {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
 }
 
-div.empty.false {
+.empty.false {
   display: none;
 }
 
