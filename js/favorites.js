@@ -77,11 +77,11 @@ export class FavoritesView extends Favorites {
         this.removeAllTr()
 
         if (this.entries.length == 0) {
-            this.tfoot.querySelector('div.empty').classList.remove('false')
-            this.tfoot.querySelector('div.empty').classList.add('true')
+            this.tfoot.querySelector('.empty').classList.remove('false')
+            this.tfoot.querySelector('.empty').classList.add('true')
         } else {
-            this.tfoot.querySelector('div.empty').classList.remove('true')
-            this.tfoot.querySelector('div.empty').classList.add('false')
+            this.tfoot.querySelector('.empty').classList.remove('true')
+            this.tfoot.querySelector('.empty').classList.add('false')
         }
 
         this.entries.forEach(user => {

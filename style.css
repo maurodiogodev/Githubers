@@ -128,10 +128,6 @@ table tfoot td {
   width: 100%;
 }
 
-table tfoot.hide {
-  display: none;
-}
-
 div.empty.true {
   display: flex;
   justify-content: center;
