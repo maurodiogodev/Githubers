@@ -57,6 +57,7 @@ export class FavoritesView extends Favorites {
         super(root)
 
         this.tbody = this.root.querySelector('table tbody')
+        this.tfoot = this.root.querySelector('table tfoot')
 
         this.update()
         this.onadd()
