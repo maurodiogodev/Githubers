@@ -76,6 +76,14 @@ export class FavoritesView extends Favorites {
     update() {
         this.removeAllTr()
 
+        if (this.entries.length == 0) {
+            this.tfoot.querySelector('div.empty').classList.remove('false')
+            this.tfoot.querySelector('div.empty').classList.add('true')
+        } else {
+            this.tfoot.querySelector('div.empty').classList.remove('true')
+            this.tfoot.querySelector('div.empty').classList.add('false')
+        }
+
         this.entries.forEach(user => {
             const row = this.createRow()
 
