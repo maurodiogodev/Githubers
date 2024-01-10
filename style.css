@@ -111,9 +111,18 @@ header h1 {
   overflow-x: hidden;
 }
 
+.table-wrapper.empty {
+  max-height: initial;
+  overflow-y: initial;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
+}
+
+table {
+  max-height: 40rem;
 }
 
 table * {
