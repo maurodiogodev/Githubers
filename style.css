@@ -103,12 +103,12 @@ header h1 {
 
 .table-wrapper {
   max-height: 40rem;
-  overflow-y: scroll;
   margin-top: 7rem;
   border: 1px solid var(--primary-color);
   border-radius: 1.2rem;
 
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .table-wrapper.empty {
@@ -121,8 +121,8 @@ table {
   border-collapse: collapse;
 }
 
-table {
-  max-height: 40rem;
+table.empty {
+  min-height: 40rem;
 }
 
 table * {
