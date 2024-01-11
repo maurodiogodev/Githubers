@@ -18,21 +18,23 @@
 
 /* ============== SCROLL BAR =================*/
 /* Works on Firefox */
-* {
+.table-wrapper * {
   scrollbar-width: thin;
   scrollbar-color: #4a808c;
 }
 
 /* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+.table-wrapper::-webkit-scrollbar {
+  position: absolute;
   width: 8px;
+  right: 10px;
 }
 /* 
 *::-webkit-scrollbar-track {
   background: none;
 } */
 
-*::-webkit-scrollbar-thumb {
+.table-wrapper::-webkit-scrollbar-thumb {
   background-color: #4a808c;
   border-radius: 20px;
   border: 3px solid #4a808c;
@@ -125,6 +127,7 @@ header h1 {
 }
 
 .table-wrapper {
+  position: relative;
   max-height: 40rem;
   margin-top: 7rem;
   border: 1px solid var(--primary-color);
