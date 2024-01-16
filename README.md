@@ -1,6 +1,5 @@
 # Githubers
- A github users colletion app
-
+ Colecionador de usuários favoritos no Github
 ### 💻 Tecnologias
 <p align="left">
   <a href="https://skillicons.dev">
