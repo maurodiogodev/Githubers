@@ -29,10 +29,6 @@
   width: 8px;
   right: 10px;
 }
-/* 
-*::-webkit-scrollbar-track {
-  background: none;
-} */
 
 *::-webkit-scrollbar-thumb {
   background-color: #4a808c;
