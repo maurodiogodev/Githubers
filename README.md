@@ -1,5 +1,5 @@
 # Githubers
- Colecionador de usuários favoritos no Github
+ Marque seus usuários favoritos no Github
 ### 💻 Tecnologias
 <p align="left">
   <a href="https://skillicons.dev">
